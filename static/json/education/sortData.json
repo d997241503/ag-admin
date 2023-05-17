@@ -1,0 +1,21 @@
+{
+	"msg": "success",
+	"code": 0,
+	"data": {
+		"id": 3,
+		"value1": "党廉政宣传",
+		"value2": "0",
+		"value3": 3,
+		"value4": [{
+			"id": 1,
+			"name": "中央精神"
+		}, {
+			"id": 2,
+			"name": "资料库"
+		}, {
+			"id": 3,
+			"name": "学院动态"
+		}],
+		"value5": 55
+	}
+}

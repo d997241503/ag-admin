@@ -1,0 +1,26 @@
+{
+	"msg": "success",
+	"code": 0,
+	"data": [{
+		"amount": 45,
+		"name": "民政与社会学院"
+	}, {
+		"amount": 88,
+		"name": "外语学院"
+	}, {
+		"amount": 56,
+		"name": "软件学院"
+	}, {
+		"amount": 68,
+		"name": "设计学院"
+	}, {
+		"amount": 42,
+		"name": "空乘学院"
+	}, {
+		"amount": 53,
+		"name": "财会学院"
+	}, {
+		"amount": 49,
+		"name": "工商学院"
+	}]
+}

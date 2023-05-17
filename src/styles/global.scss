@@ -1,0 +1,38 @@
+.click-text {
+    text-decoration: underline;
+    cursor: pointer;
+    &:hover {
+        color: #bc0000
+    }
+}
+
+.underline-link {
+    color: #606266;
+    text-decoration: underline;
+    cursor: pointer;
+    &:hover {
+      color: #bc0000;
+    }
+}
+
+.text-ellipsis-1 {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.list-search-container {
+    margin-bottom: 20px;
+    .el-form-item {
+        margin-bottom: 0;
+    }
+}
+
+.gray {
+    /*grayscale(val):val值越大灰度就越深*/
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    text-align: center;
+}

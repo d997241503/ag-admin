@@ -1,0 +1,71 @@
+{
+	"msg": "success",
+	"code": 0,
+	"data": {
+		"total": 10,
+		"rows": [{
+			"id": 1,
+			"title": "《中国共产党章程》",
+			"sortNum": "0",
+			"categories": "党章党规党纪",
+			"articleType": "0",
+			"creatTime": "2020-08-26"
+		},{
+			"id": 2,
+			"title": "《中国共产党廉洁自律准则》",
+			"sortNum": "0",
+			"categories": "党章党规党纪",
+			"articleType": "1",
+			"creatTime": "2020-07-01"
+		},{
+			"id": 1,
+			"title": "《中国共产党纪律处分条例》",
+			"sortNum": "0",
+			"categories": "党章党规党纪",
+			"articleType": "2",
+			"creatTime": "2020-08-26"
+		},{
+			"id": 1,
+			"title": "《中国共产党问责条例》",
+			"sortNum": "0",
+			"categories": "党章党规党纪",
+			"articleType": "0",
+			"creatTime": "2020-07-01"
+		},{
+			"id": 1,
+			"title": "《党政领导干部选拔任用工作条例》",
+			"sortNum": "0",
+			"categories": "党章党规党纪",
+			"articleType": "3",
+			"creatTime": "2020-08-26"
+		},{
+			"id": 1,
+			"title": "《中国共产党章程（党的干部 ）》",
+			"sortNum": "0",
+			"categories": "党章党规党纪",
+			"articleType": "2",
+			"creatTime": "2020-07-01"
+		},{
+			"id": 1,
+			"title": "《中国共产党章程（党的纪律）》",
+			"sortNum": "0",
+			"categories": "党章党规党纪",
+			"articleType": "1",
+			"creatTime": "2020-08-26"
+		},{
+			"id": 1,
+			"title": "《中国共产党党内法规制定条例》",
+			"sortNum": "0",
+			"categories": "党章党规党纪",
+			"articleType": "0",
+			"creatTime": "2020-07-01"
+		},{
+			"id": 1,
+			"title": "《中国共产党党组工作条例（试行）》",
+			"sortNum": "0",
+			"categories": "党章党规党纪",
+			"articleType": "3",
+			"creatTime": "2020-08-26"
+		}]
+	}
+}

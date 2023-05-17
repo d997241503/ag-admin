@@ -1,0 +1,97 @@
+{
+	"message": "success",
+	"status": 0,
+	"data": {
+		"taskList": {
+			"total": 7,
+			"inventoryId": 1,
+			"inventoryName": "2022年第一季度领导班子责任清单",
+			"issueDate": "2022-01-06"
+		},
+		"specialSupervision": {
+			"percentage": 37,
+			"total": 5,
+			"supervisionInfo": [{
+				"itemId": 1,
+				"itemName": "基建维修工程建设项目采购",
+				"deptId": 2,
+				"deptName": "基建办公室",
+				"commitDate": "2022-02-08",
+				"instructions": "1"
+			}, {
+				"itemId": 2,
+				"itemName": "物资设备采购",
+				"deptId": 3,
+				"deptName": "党委宣传部",
+				"commitDate": "2022-02-08",
+				"instructions": "2"
+			}, {
+				"itemId": 3,
+				"itemName": "学校干部任免",
+				"deptId": 4,
+				"deptName": "党委办公室",
+				"commitDate": "2022-02-08",
+				"instructions": "1"
+			}]
+		},
+		"dailySupervision": {
+			"total": 28,
+			"supervisionInfo": [{
+				"itemId": 1,
+				"deptId": 131,
+				"totalNum": 28,
+				"deptName": "基建办公室",
+				"commitDate": "2022-02-08",
+				"instructions": "2",
+				"specialSupervision": "1",
+				"workLeaderUserId": 1,
+				"workLeaderName": "张三",
+				"itemType": "1"
+			}, {
+				"itemId": 1,
+				"deptId": 131,
+				"totalNum": 28,
+				"deptName": "基建办公室",
+				"commitDate": "2022-02-08",
+				"instructions": "2",
+				"specialSupervision": "0",
+				"workLeaderUserId": 1,
+				"workLeaderName": "张三",
+				"itemType": "2"
+			}, {
+				"itemId": 1,
+				"deptId": 131,
+				"totalNum": 28,
+				"deptName": "基建办公室",
+				"commitDate": "2022-02-08",
+				"instructions": "0",
+				"specialSupervision": "1",
+				"workLeaderUserId": 1,
+				"workLeaderName": "张三",
+				"itemType": "3"
+			}, {
+				"itemId": 1,
+				"deptId": 131,
+				"totalNum": 28,
+				"deptName": "基建办公室",
+				"commitDate": "2022-02-08",
+				"instructions": "1",
+				"specialSupervision": "0",
+				"workLeaderUserId": 1,
+				"workLeaderName": "张三",
+				"itemType": "4"
+			}, {
+				"itemId": 1,
+				"deptId": 131,
+				"totalNum": 28,
+				"deptName": "基建办公室",
+				"commitDate": "2022-02-08",
+				"instructions": "2",
+				"specialSupervision": "1",
+				"workLeaderUserId": 1,
+				"workLeaderName": "张三",
+				"itemType": "6"
+			}]
+		}
+	}
+}

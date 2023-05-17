@@ -1,0 +1,63 @@
+.other-info {
+    margin-bottom: 20px;
+    margin-right: 100px;
+    text-align: right;
+}
+.el-form {
+    .content-title {
+        font-size: 17px;
+        margin-left: 20px;
+    }
+    .content-form {
+        width: 70%;
+        margin: 10px auto;
+        padding-right: 14%;
+    }
+    .item-content-row {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        .el-col {
+            &:first-of-type {
+                padding-left: 0 !important;
+            }
+            &:last-of-type {
+                padding-right: 0 !important;
+            }
+        }
+    }
+    .content-form-item {
+        width: 86%;
+    }
+    .el-select {
+        width: 100%;
+    }
+    .el-input {
+        width: 100%;
+    }
+    .footer {
+        margin: 50px 0;
+        text-align: center;
+        .el-button {
+            width: 150px;
+        }
+    }
+    .line-area {
+        &:not(:first-child) {
+            border-top: 1px dashed #bc0000;
+            margin-top: 15px;
+            padding-top: 15px;
+        }
+    }
+    .row-gap {
+        margin-bottom: 10px;
+    }
+    .item-btn {
+        position: absolute;
+        left: calc(100% + 15px);
+        display: flex;
+        .btn-info {
+            margin-right: 10px;
+            cursor: pointer;
+        }
+    }
+}

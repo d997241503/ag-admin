@@ -1,0 +1,57 @@
+{
+	"msg": "success",
+	"code": 0,
+	"data": {
+		"total": 10,
+		"rows": [{
+			"value1": 12,
+			"value2": 15,
+			"value3": 18,
+			"partyName": "民政与社会学院",
+			"value4": 20,
+			"value5": 65
+		}, {
+			"value1": 55,
+			"value2": 21,
+			"value3": 15,
+			"partyName": "外语学院",
+			"value4": 23,
+			"value5": 114
+		}, {
+			"value1": 13,
+			"value2": 18,
+			"value3": 24,
+			"partyName": "软件学院",
+			"value4": 22,
+			"value5": 77
+		}, {
+			"value1": 9,
+			"value2": 16,
+			"value3": 2,
+			"partyName": "设计学院",
+			"value4": 6,
+			"value5": 33
+		}, {
+			"value1": 13,
+			"value2": 18,
+			"value3": 9,
+			"partyName": "空乘学院",
+			"value4": 16,
+			"value5": 56
+		}, {
+			"value1": 9,
+			"value2": 13,
+			"value3": 15,
+			"partyName": "财会学院",
+			"value4": 18,
+			"value5": 55
+		}, {
+			"value1": 23,
+			"value2": 16,
+			"value3": 23,
+			"partyName": "工商学院",
+			"value4": 19,
+			"value5": 81
+		}]
+	}
+}

@@ -1,0 +1,76 @@
+@import './tables-variables.scss';
+
+.detail-container {
+	min-height: calc(100vh - 100px);
+	padding-top: 30px;
+	background-color: #FFFFFF;
+}
+
+.content {
+	width: $table-width;
+	margin: 0 auto;
+	font-family: $table-font-family;
+	font-size: 20px;
+	color: $table-font-color;
+}
+
+.title {
+	width: 100%;
+	text-align: center;
+	font-size: 30px;
+	font-weight: 600;
+}
+
+
+.table {
+	width: 100%;
+	margin-top: 20px;
+}
+
+.label {
+	text-align: center;
+}
+
+.value {
+	padding: 0 10px;
+	text-align: justify;
+	white-space: pre-wrap;
+}
+
+.table-border {
+	border: 0.0625rem solid $table-border-color;
+}
+
+.table-border-bottom-right {
+	border-bottom: 0.0625rem solid $table-border-color;
+	border-right: 0.0625rem solid $table-border-color;
+}
+
+.table-border-bottom {
+	border-bottom: 0.0625rem solid $table-border-color;
+}
+
+.table-border-right {
+	border-right: 0.0625rem solid $table-border-color;
+}
+
+.file-info {
+	font-size: 18px;
+	color: $table-font-color;
+	text-decoration: underline;
+}
+
+.file-info:hover {
+	cursor: pointer;
+	color: #328FFE;
+}
+
+.text-info {
+	padding: 40px 0;
+	white-space: pre-wrap;
+}
+
+.footer {
+	height: 40px;
+	padding: 10px 0 0 5px;
+}

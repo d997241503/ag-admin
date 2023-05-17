@@ -1,0 +1,17 @@
+{
+	"msg": "success",
+	"code": 0,
+	"page": {
+		"currPage": 1,
+		"totalPage": 1,
+		"pageSize": 10,
+		"totalCount": 1,
+		"list": [{
+			"dateId": 1,
+			"testnum": "入党积极分子考试",
+			"theme": "0",
+			"testTime": "2021-11-19 10:00:00至2021-11-20 00:00:00",
+			"testState": 0
+		}]
+	}
+}

@@ -1,0 +1,51 @@
+{
+	"message": "success",
+	"status": 0,
+	"data": {
+		"itemId": 2,
+		"deptId": 1,
+		"deptName": "部门名称",
+		"workLeaderUserId": 1,
+		"workLeaderName": "张三",
+		"itemType": "1",
+		"other": "",
+		"projectName": "项目名称",
+		"purchaseWay": "采购方式",
+		"procurementBiddingTime": "2022-02-02",
+		"budget": "23.05万",
+		"supervisionRequirements": "1",
+		"supervisionEvidence": "2",
+		"unitLeaderOpinion": "单位负责人意见",
+		"unitLeaderUserId": 2,
+		"unitLeaderName": "李四",
+		"unitLeaderCheckDate": "2022-02-02",
+		"submitFiles": [
+			"https://xiao001.fun:9000/inform/a4446943-4deb-4037-88c4-15995e2354f4_考试人员名单模板.xlsx",
+			"https://xiao001.fun:9000/inform/a4446943-4deb-4037-88c4-15995e2354f4_考试人员名单模板.xlsx"
+		],
+		"inspectingDisciplineOpinion": "纪委意见纪委意见纪委意见纪委意见",
+		"inspectingDisciplineUserId": 1,
+		"inspectingDisciplineName": "王五",
+		"inspectingDisciplineCheckDate": "2022-02-02",
+		"instructions": "0",
+		"itemName": "事项名称",
+		"dutyDeptId": 2,
+		"dutyDeptName": "牵头责任单位",
+		"supervisionExamineDate": "2022-02-02",
+		"supervisionSummary": "监督事项概要",
+		"question": true,
+		"questionContent": "问题内容",
+		"abarbeitungOpinin": true,
+		"abarbeitungOpininContent": "整改意见内容",
+		"otherQuestion": true,
+		"otherQuestionContent": "其它问题内容",
+		"supervisorUserId": 3,
+		"supervisorName": "赵六",
+		"supervisionInspectionDate": "2022-02-02",
+		"remark": "备注",
+		"specialSupervision": "1",
+		"checkFiles": [
+			"https://xiao001.fun:9000/inform/a4446943-4deb-4037-88c4-15995e2354f4_考试人员名单模板.xlsx"
+		]
+	}
+}

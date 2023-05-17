@@ -1,0 +1,534 @@
+@import './variables.scss';
+@import './mixin.scss';
+@import './btn.scss';
+@import './element-ui.scss';
+@import './sidebar.scss';
+@import './global.scss';
+
+body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: Microsoft YaHei, Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Arial, sans-serif;
+	height: auto !important;
+    color: #000;
+    font-size: 14px;
+}
+
+label {
+  font-weight: 700;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.no-padding {
+  padding: 0px !important;
+}
+
+.padding-content {
+  padding: 4px 0;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+a,
+a:focus,
+a:hover {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+}
+
+.fr {
+  float: right;
+}
+
+.fl {
+  float: left;
+}
+
+.pr-5 {
+  padding-right: 5px;
+}
+
+.pl-5 {
+  padding-left: 5px;
+}
+
+.block {
+  display: block;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.inlineBlock {
+  display: block;
+}
+
+code {
+  background: #eef1f6;
+  padding: 15px 10px;
+  margin-bottom: 20px;
+  display: block;
+  line-height: 36px;
+  a {
+    color: #337ab7;
+    cursor: pointer;
+    &:hover {
+      color: rgb(32, 160, 255);
+    }
+  }
+}
+
+.tier-page {
+	background: #FFFFFF;
+	padding: 20px;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: all .2s ease
+}
+
+.fade-enter,
+.fade-leave-active {
+  opacity: 0;
+}
+
+
+//main-container全局样式
+.app-container {
+  padding: 20px;
+}
+
+.page-content {
+	border: 0.0625rem solid #EAEAEA;
+	border-radius: 10px;
+	padding: 20px;
+	background-color: #FFFFFF;
+}
+.components-container {
+  margin: 30px 50px;
+  position: relative;
+}
+.pagination-container {
+  margin-top: 15px;
+}
+
+.editor-container .CodeMirror {
+  height: 100%!important;
+}
+
+.text-center{
+  text-align: center
+}
+.svg-icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+
+// 下沉页面返回
+.go-back-img {
+	width: 40px;
+	height: 30px;
+	position: absolute;
+	top: 60px;
+	text-align: center;
+}
+
+.go-back-img:hover {
+	cursor: pointer;
+}
+
+.go-back-img>img{
+	width: 35px;
+	height: 24px;
+	// margin-bottom: -20px;
+}
+
+.sub-navbar {
+  height: 50px;
+  line-height: 50px;
+  position: relative;
+  width: 100%;
+  text-align: right;
+  padding-right: 20px;
+  transition: 600ms ease position;
+  background: linear-gradient(90deg, rgba(32, 182, 249, 1) 0%, rgba(32, 182, 249, 1) 0%, rgba(33, 120, 241, 1) 100%, rgba(33, 120, 241, 1) 100%);
+  .subtitle {
+    font-size: 20px;
+    color: #fff;
+  }
+  &.draft {
+    background: #d0d0d0;
+  }
+  &.deleted {
+    background: #d0d0d0;
+  }
+}
+
+.link-type,
+.link-type:focus {
+  color: #337ab7;
+  cursor: pointer;
+  &:hover {
+    color: rgb(32, 160, 255);
+  }
+}
+
+.publishedTag,
+.draftTag,
+.deletedTag {
+  color: #fff;
+  background-color: $panGreen;
+  line-height: 1;
+  text-align: center;
+  margin: 0;
+  padding: 8px 12px;
+  font-size: 14px;
+  border-radius: 4px;
+  position: absolute;
+  left: 20px;
+  top: 10px;
+}
+
+.draftTag {
+  background-color: $yellow;
+}
+
+.deletedTag {
+  background-color: $red;
+}
+
+.input-label {
+  font-size: 14px;
+  color: #48576a;
+  line-height: 1;
+  padding: 11px 5px 11px 0;
+}
+
+.clearfix {
+  &:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+}
+
+.no-marginLeft {
+  .el-checkbox {
+    margin: 0 20px 15px 0;
+  }
+  .el-checkbox+.el-checkbox {
+    margin-left: 0px;
+  }
+}
+
+.filter-container {
+  padding-bottom: 10px;
+  .filter-item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 10px;
+  }
+}
+
+
+//refine vue-multiselect plugin
+.multiselect {
+  line-height: 16px;
+}
+
+.multiselect--active {
+  z-index: 1000 !important;
+}
+
+//refine simplemde
+.simplemde-container{
+  .editor-toolbar.fullscreen,.CodeMirror-fullscreen{
+    z-index: 1003;
+  }
+}
+
+//暂时性解决diolag 问题 https://github.com/ElemeFE/element/issues/2461
+.el-dialog {
+  transform: none;
+  left: 0;
+  position: relative;
+  margin: 0 auto;
+}
+
+//github-corner
+.github-corner:hover .octo-arm {
+  animation: octocat-wave 560ms ease-in-out
+}
+
+.nav-content-index {
+	display: flex;
+	width: 100%;
+	line-height: 138px;
+	text-align: center;
+
+	.nav-left {
+		width: 230px;
+		font-family: AdobeHeitiStd-Regular;
+		font-size: 18px;
+		font-weight: bold;
+		font-stretch: normal;
+		letter-spacing: 0px;
+		color: #484848;
+		border-right: 12px solid #E5E5EA;
+		border-bottom: 18px solid #E5E5EA;
+	}
+
+	.nav-right {
+		flex: 1;
+		border-bottom: 18px solid #E5E5EA;
+		border-right: 0;
+		padding-left: 30px;
+
+		.route-item {
+			width: 212px;
+			height: 138px;
+			float: left;
+			cursor: pointer;
+			color: #666;
+
+			.img-info {
+				height: 60px;
+				margin-top: 14px;
+
+				img {
+					width: 60px;
+					height: 60px;
+				}
+			}
+
+			.mar-auto {
+				margin-top: 50px;
+				padding: 0 5px;
+				height: 16px;
+				font-family: AdobeHeitiStd-Regular;
+				font-size: 16px;
+				font-weight: normal;
+				font-stretch: normal;
+				line-height: 20px;
+				letter-spacing: 0px;
+				color: #484848;
+			}
+		}
+
+		.route-item:hover {
+			color: #999999;
+		}
+	}
+}
+
+.quick-content {
+	width: 100%;
+	display: flex;
+	background-color: #F5F5F5;
+	color: #666;
+
+	.item-left {
+		width: 188px;
+	}
+
+	.item-center {
+		flex: 1;
+		width: 10%;
+		min-width: 100px;
+		max-width: 180px;
+		text-align: center;
+		.item-info {
+			width: 98%;
+			// width: 188px;	
+			height: 130px;
+			float: left;
+			text-align: center;
+			padding: 0 5px;
+
+			.mar-top {
+				margin-top: 32px;
+			}
+
+			.mar-auto {
+				margin: 10px auto;
+				height: 16px;
+				font-family: AdobeHeitiStd-Regular;
+				font-size: 16px;
+				font-weight: normal;
+				font-stretch: normal;
+				line-height: 18px;
+				letter-spacing: 0px;
+				color: #555555;
+			}
+
+			img {
+				height: 44px;
+			}
+		}
+
+		.item-info:hover {
+			cursor: pointer;
+			color: #999999;
+		}
+
+		.halving-line {
+			width: 1%;
+			height: 40px;
+			margin-top: 50px;
+			float: left;
+			background-color: #FFFFFF;
+		}
+	}
+
+	.more-info {
+		// width: 150px;
+		text-align: left;
+	}
+
+	.more-btn {
+		margin-left: 60px;
+		font-size: 30px;
+		line-height: 120px;
+		color: #888;
+	}
+
+	.more-btn:before {
+		transform: rotate(180deg);
+	}
+}
+
+@keyframes octocat-wave {
+  0%,
+  100% {
+    transform: rotate(0)
+  }
+  20%,
+  60% {
+    transform: rotate(-25deg)
+  }
+  40%,
+  80% {
+    transform: rotate(10deg)
+  }
+}
+
+
+@media (max-width:500px) {
+  .github-corner:hover .octo-arm {
+    animation: none
+  }
+  .github-corner .octo-arm {
+    animation: octocat-wave 560ms ease-in-out
+  }
+}
+
+
+@media screen and (max-width : 1680px){
+	.nav-content-index {
+		.nav-right {
+			.route-item {
+				width: 200px;
+			}
+		}
+	}
+}
+
+@media screen and (max-width : 1600px){
+	.nav-content-index {
+		.nav-right {
+			.route-item {
+				width: 190px;
+			}
+		}
+	}
+}
+
+
+@media screen and (max-width : 1440px){
+	.nav-content-index {
+		line-height: 120px;
+		
+		.nav-right {
+	
+			.route-item {
+				width: 155px;
+				height: 120px;
+	
+				.img-info {
+					height: 55px;
+					margin-top: 10px;
+	
+					img {
+						width: 55px;
+						height: 55px;
+					}
+				}
+	
+				.mar-auto {
+					margin-top: 43px;
+					height: 16px;
+					font-size: 15px;
+					line-height: 16px;
+				}
+			}
+		}
+	}
+	.quick-content {
+	
+		.item-center {
+			min-width: 100px;
+			.item-info {	
+				height: 110px;
+	
+				.mar-top {
+					margin-top: 25px;
+				}
+	
+				.mar-auto {
+					margin: 9px auto;
+					height: 15px;
+					font-size: 15px;
+					line-height: 17px;
+				}
+	
+				img {
+					height: 40px;
+				}
+			}
+	
+			.halving-line {
+				height: 40px;
+				margin-top: 40px;
+			}
+		}
+	
+		.more-btn {
+			font-size: 28px;
+			line-height: 100px;
+		}
+	}
+
+}
+

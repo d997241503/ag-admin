@@ -1,0 +1,12 @@
+.statis-wrapper {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  overflow-x: auto;
+  .statis-card {
+    flex: 1;
+    &:not(:last-child) {
+      margin-right: 10px;
+    }
+  }
+}
